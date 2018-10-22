@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "immutable": "^4.0.0-rc.10",
-    "redux-persist-immutable": "^4.3.0"
+    "redux-persist-immutable": "github:aghoneim92/redux-persist-immutable#upgrade-redux-persist-transform-immutable"
   },
   "peerDependencies": {
     "redux-offline": ">=2"
