@@ -35,7 +35,7 @@
     "flow-bin": "^0.50.0"
   },
   "dependencies": {
-    "immutable": "^3.8.1",
+    "immutable": "^4.0.0-rc.10",
     "redux-persist-immutable": "^4.3.0"
   },
   "peerDependencies": {
