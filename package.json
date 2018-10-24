@@ -1,6 +1,9 @@
 {
-  "name": "redux-offline-immutable-config",
+  "name": "@randy.tarampi/redux-offline-immutable-config",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Provide a configuration for redux-offline to use an immutable root state with redux-persist-immutable",
   "main": "lib/index.js",
   "scripts": {
@@ -35,8 +38,8 @@
     "flow-bin": "^0.50.0"
   },
   "dependencies": {
-    "immutable": "^4.0.0-rc.10",
-    "redux-persist-immutable": "github:aghoneim92/redux-persist-immutable#upgrade-redux-persist-transform-immutable"
+    "@randy.tarampi/redux-persist-immutable": "latest",
+    "immutable": "^4.0.0-rc.10"
   },
   "peerDependencies": {
     "redux-offline": ">=2"

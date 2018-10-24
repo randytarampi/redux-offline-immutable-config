@@ -1,4 +1,4 @@
 // @flow
-import { autoRehydrate } from 'redux-persist-immutable';
+import { autoRehydrate } from '@randy.tarampi/redux-persist-immutable';
 
 export default autoRehydrate;
