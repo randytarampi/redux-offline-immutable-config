@@ -42,6 +42,6 @@
     "immutable": "^4.0.0-rc.10"
   },
   "peerDependencies": {
-    "redux-offline": ">=2"
+    "@redux-offline/redux-offline": ">=2"
   }
 }
